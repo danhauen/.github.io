@@ -1,2 +1,1 @@
-# Basic-Portfolio
-Portfolio using html and css
+# bootstrap-portfolio
