@@ -1,6 +1,7 @@
 [submodule "assets/projects/Psychic-Game/Psychic-Game"]
 	path = assets/projects/Psychic-Game/Psychic-Game
 	url = https://github.com/danhauen/Psychic-Game.git
+	
 [submodule "assets/projects/unit-4-game"]
 	path = assets/projects/unit-4-game
 	url = https://github.com/danhauen/unit-4-game.git
