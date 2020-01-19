@@ -5,3 +5,9 @@
 [submodule "assets/projects/unit-4-game"]
 	path = assets/projects/unit-4-game
 	url = https://github.com/danhauen/unit-4-game.git
+[submodule "GifTastic"]
+	path = GifTastic
+	url = https://github.com/danhauen/GifTastic.git
+[submodule "TriviaGame"]
+	path = TriviaGame
+	url = https://github.com/danhauen/TriviaGame.git
