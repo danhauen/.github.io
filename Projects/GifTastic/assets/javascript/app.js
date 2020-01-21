@@ -22,7 +22,6 @@ function renderButtons() {
             animalBtn.text(animals[i]);
             // adds the button to html
             $("#buttons").append(animalBtn);
-            displayGifInfo;
         }
     }
 
@@ -80,6 +79,7 @@ function displayGifInfo() {
                 animals.push(animalName);
                 //renderButtons
                 renderButtons();
+                displayGifInfo();
             });
 
 
