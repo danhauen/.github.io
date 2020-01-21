@@ -22,6 +22,7 @@ function renderButtons() {
             animalBtn.text(animals[i]);
             // adds the button to html
             $("#buttons").append(animalBtn);
+            displayGifInfo;
         }
     }
 
