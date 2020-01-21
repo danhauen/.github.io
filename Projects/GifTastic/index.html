@@ -5,36 +5,52 @@
   <meta charset="utf-8">
   <title>GifTastic</title>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <script src="assets/javascript/app.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
 </head>
 
 <body>
-  
-  <!--animal entry div-->
-  <div id="buttons-animals"></div>
+<!--header with rainbow title in css with Giphy colors-->
+<div class = "container-fluid bg-dark border-bottom border-danger">
+    <div class="row header-row">  
+        <div class="col-10 mx-auto pl-5">
+            <h1 class="header rainbow">GifTastic</h1>
+            </span>
+        </div>
+    </div>
+</div>
+
+<br>
+     <!--area where animal buttons created are placed-->
+    <div class="row btn-row"> 
+        <div class="container" value = "data-animal" id="buttons"></div>
+    </div>
+    <br>
+    <br>
 
 <div class = "container">
     <div class = "row">
-        <!--gif div-->
-        <div class = "col 10">         
-        <div id="gif-div"></div>
-        </div>
-        <!--input area-->
-        <div class = "col 1">
+        <!--Area where gifs are placed when generated-->
+        <div class = "col-9" id="gifs-view"></div>
+        <!--input new animal-->
+        <div class = "col-3-lg pl-3">
             <form>
                 <div class="form-group animal-form">
                 <label for="animal-input">Add an animal</label>
                 <input type="text" class="form-control" id="animal-input">  
                 </div>
-                <button type="submit" id="add-animal" class="btn btn-primary">Submit</button>
+                <!--submit btn for adding a new button-->
+                <input class="btn animal-btn btn-success btn-sm" type="submit" value="Submit" id="add-animal">
             </form>
         </div>
     </div>
 </div>
-
+    <!--js.script src-->
+    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
