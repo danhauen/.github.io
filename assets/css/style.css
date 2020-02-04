@@ -104,6 +104,10 @@ label {
   .port-image {
     margin: 20px auto;
   }
+
+  /* .card {
+    border: none;
+  } */
   
   .card-title {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
